@@ -1,0 +1,22 @@
+<h2>Teacher Page</h2>
+<div ng-controller="TeacherController">
+
+    <table class="table table-hover table-striped table-resposive">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Qualification</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="teacher in teachers">
+                <td>{{teacher.name}}</td>
+                <td>{{teacher.age}}</td>
+                <td>{{teacher.qualification}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

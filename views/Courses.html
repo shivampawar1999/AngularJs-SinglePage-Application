@@ -1,0 +1,11 @@
+<h2>Courses Page</h2>
+
+<div ng-controller="CoursesController">
+  
+    <h2>List of courses</h2>
+    <div class="alert alert-success alert-dismissible" role="alert" ng-repeat="course in Cources">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>{{course}}</strong>
+      </div>
+
+</div>
